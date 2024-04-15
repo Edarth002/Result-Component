@@ -1,4 +1,4 @@
-node_modules
-design
-.vscode
-qr-code
+node_modules/
+
+design/
+.vscode/
