@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="stylesheet" href="./tailwind.css" />
+
+    <title>Frontend Mentor | Result component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+
+  <body class="bg-slate-50">
+    <div
+      class="bg-white md:w-[80%] w-full flex md:flex-row flex-col mx-auto md:my-32 my-0 md:rounded-3xl shadow-md shadow-Lightroyalblue max-w-[55rem] min-w-[30rem]"
+    >
+      <div
+        class="bg-gradient-to-t from-Lightroyalblue to-Lightslateblue md:w-1/2 w-full p-5 md:rounded-3xl rounded-b-3xl"
+      >
+        <h1 class="text-blue-400 text-center my-5 md:text-base text-2xl">
+          Your Result
+        </h1>
+        <div
+          class="bg-gradient-to-b from-Violetblue to-Persianblue mx-auto py-9 rounded-full h-60 w-60 text-center"
+        >
+          <p class="text-white text-7xl font-semibold mt-8">76</p>
+          <p class="text-blue-400 md:text-xs text-base">of 100</p>
+        </div>
+        <div class="mx-auto flex flex-col text-center md:w-[70%] w-[80%] mt-10">
+          <p class="text-white md:text-2xl mt-3 mb-2 font-medium text-3xl">
+            Great
+          </p>
+          <p class="md:text-xl text-xl text-blue-400 mb-3">
+            You scored higher than 65% of the people who have taken these tests
+          </p>
+        </div>
+      </div>
+      <div class="p-10 md:w-1/2 w-full md:rounded-r-3xl">
+        <h1 class="text-Darkgrayblue font-medium text-[18px] md:mb-4 mb-2">
+          Summary
+        </h1>
+        <div class="md:text-[15px] text-[19px]">
+          <div
+            class="flex bg-Lightred bg-opacity-20 md:my-2 my-3 rounded-lg text-Lightred font-medium p-5 justify-between"
+          >
+            <div class="flex space-x-1 items-center">
+              <img src="./icon-reaction.svg" alt="" />
+              <p>Reaction</p>
+            </div>
+            <div class="flex items-center">
+              <p class="text-Darkgrayblue">80</p>
+              <p class="text-slate-400">/100</p>
+            </div>
+          </div>
+          <div
+            class="flex bg-Orangeyyellow bg-opacity-20 md:my-2 my-3 rounded-lg text-Orangeyyellow font-medium p-5 justify-between"
+          >
+            <div class="flex space-x-1 items-center">
+              <img src="./icon-memory.svg" alt="" />
+              <p>Memory</p>
+            </div>
+            <div class="flex items-center">
+              <p class="text-Darkgrayblue">92</p>
+              <p class="text-slate-400">/100</p>
+            </div>
+          </div>
+          <div
+            class="flex bg-Greenteal bg-opacity-20 md:my-2 my-3 rounded-lg text-Greenteal font-medium p-5 justify-between"
+          >
+            <div class="flex space-x-1 items-center">
+              <img src="./icon-verbal.svg" alt="" />
+              <p>Verbal</p>
+            </div>
+            <div class="flex items-center">
+              <p class="text-Darkgrayblue">61</p>
+              <p class="text-slate-400">/100</p>
+            </div>
+          </div>
+          <div
+            class="flex bg-Cobaltblue bg-opacity-20 md:my-2 my-3 rounded-lg text-Cobaltblue font-medium p-5 justify-between"
+          >
+            <div class="flex space-x-1 items-center">
+              <img src="./icon-reaction.svg" alt="" />
+              <p>Visual</p>
+            </div>
+            <div class="flex items-center">
+              <p class="text-Darkgrayblue">72</p>
+              <p class="text-slate-400">/100</p>
+            </div>
+          </div>
+          <button
+            class="bg-Darkgrayblue rounded-3xl p-5 text-center text-white w-full mt-7 mb-2 hover:bg-gradient-to-t from-Lightroyalblue to-Lightslateblue cursor-pointer"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
